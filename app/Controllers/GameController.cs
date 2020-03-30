@@ -98,6 +98,9 @@ namespace escape_house.Controllers
         case "use":
           _gs.Use(option);
           break;
+        case "help":
+          _gs.Help();
+          break;
         default:
           _gs.Messages.Add("Not a recognized command");
           _gs.Look();

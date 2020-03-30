@@ -44,7 +44,7 @@ namespace escape_house.Services
 
     public void Help()
     {
-      throw new System.NotImplementedException();
+      Messages.Add("Type (look) to see around the room, type (quit) to quit, type (take) to take an item, type (go + direction) to go a certain direction, type (use) to use an item, type (inventory) to see your inventory, type (reset) to reset game.");
     }
 
     public void Inventory()
